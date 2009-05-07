@@ -17,6 +17,8 @@ our $VERSION = '0.01';
 
 sub UNIVERSAL::cannot { ! UNIVERSAL::can(@_); }
 
+sub UNIVERSAL::cant { goto \&UNIVERSAL::cannot; }
+
 =head1 SYNOPSIS
 
 Quick summary of what the module does.
