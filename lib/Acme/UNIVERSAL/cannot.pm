@@ -15,6 +15,7 @@ Version 0.01
 
 our $VERSION = '0.01';
 
+sub UNIVERSAL::cannot { ! UNIVERSAL::can(@_); }
 
 =head1 SYNOPSIS
 
