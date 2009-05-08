@@ -1,52 +1,32 @@
-Acme-UNIVERSAL-cannot
+NAME
+    Acme::UNIVERSAL::cannot - Just so that Acme::LOLCat->cannot('has')
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+SYNOPSIS
+        use Acme::UNIVERSAL::cannot;
+        use Acme::LOLCat; # Should be fixed in 0.0.5 hopefully.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+        Acme::LOLCat->cannot('has');
+        Acme::LOLCat->can't('has');
+        Acme::LOLCat->cant('has');
 
+BLAME
+    ElPenguin made me do it.
 
-INSTALLATION
+    Nicholas Clark suggested "->can't()"
 
-To install this module, run the following commands:
+AUTHOR
+    Tomas Doran (t0m), "<bobtfish at bobtfish.net>"
 
-	perl Makefile.PL
-	make
-	make test
-	make install
+BUGS
+    Please report any bugs or feature requests to "bug-acme-universal-cannot
+    at rt.cpan.org", or through the web interface at
+    <http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-UNIVERSAL-cannot>.
+    I will be notified, and then you'll automatically be notified of
+    progress on your bug as I make changes.
 
-SUPPORT AND DOCUMENTATION
+COPYRIGHT & LICENSE
+    Copyright 2009 Tomas Doran, all rights reserved.
 
-After installing, you can find documentation for this module with the
-perldoc command.
-
-    perldoc Acme::UNIVERSAL::cannot
-
-You can also look for information at:
-
-    RT, CPAN's request tracker
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-UNIVERSAL-cannot
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Acme-UNIVERSAL-cannot
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Acme-UNIVERSAL-cannot
-
-    Search CPAN
-        http://search.cpan.org/dist/Acme-UNIVERSAL-cannot/
-
-
-COPYRIGHT AND LICENCE
-
-Copyright (C) 2009 Tomas Doran
-
-This program is free software; you can redistribute it and/or modify it
-under the same terms as Perl itself.
+    This program is free software; you can redistribute it and/or modify it
+    under the same terms as Perl itself.
 
